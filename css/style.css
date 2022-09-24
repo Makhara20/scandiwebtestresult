@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header .headclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+  padding: 15px;
+}
+header .headclass h1 {
+  color: #3b3b3b;
+}
+header .headclass .buttons button {
+  outline: none;
+  padding: 10px;
+  background-color: #ccc;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+header .headclass .buttons .add {
+  color: #313131;
+  font-weight: 200;
+}
+header .headclass .buttons .delete {
+  background-color: rgb(218, 0, 0);
+  color: #fff;
+  font-weight: 400;
+}
+header .headclass .buttons button:hover {
+  opacity: 0.9;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container .create_forms {
+  overflow: hidden;
+  width: 350px;
+  padding: 15px;
+}
+
+.cont_box {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cont_box .product {
+  border: 1px solid;
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  margin: 20px 20px 20px 0;
+}
+.cont_box .product .text-info {
+  text-align: center;
+  line-height: 22px;
+}/*# sourceMappingURL=style.css.map */
